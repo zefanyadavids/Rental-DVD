@@ -25,7 +25,7 @@
 				<td>Stok DVD</td>
 			</tr>
 			<tr>
-				<td></td>
+				<td> </td>
 			</tr>
 		</table>
 	</a>
@@ -35,7 +35,7 @@
 				<td>Gaji</td>
 			</tr>
 			<tr>
-				<td></td>
+				<td> </td>
 			</tr>
 		</table>
 	</a>
