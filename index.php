@@ -17,16 +17,10 @@
 	<?php
 		if(isset($_GET["data"])) {
 			include "data.php";
-		} else if(isset($_GET["peminjaman"])) {
-			include "peminjaman.php";
 		} else if(isset($_GET["pengembalian"])) {
 			include "pengembalian.php";
 		} else if(isset($_GET["perpanjangan"])) {
 			include "perpanjangan.php";
-		} else if(isset($_GET["laporan"])) {
-			include "laporan.php";
-		} else {
-			include "peminjaman.php";
 		}
 	?>
 </div>
