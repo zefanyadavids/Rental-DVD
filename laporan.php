@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style-laporan.css">
 	<link rel="stylesheet" href="css/fontawesome-all.css">
 	<script src="js/utill.js"></script>
+	<script src="js/effect.js"></script>
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -20,5 +22,8 @@
 	?>
 	</div>
 
+	<script>
+		laporan();
+	</script>
 </body>
 </html>

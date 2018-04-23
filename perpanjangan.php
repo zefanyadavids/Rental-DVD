@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style-head-side.css">
 	<link rel="stylesheet" type="text/css" href="css/style-content.css">
 	<script src="js/utill.js"></script>
+	<script src="js/effect.js"></script>
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -62,5 +64,8 @@
 			<button class="tombolbiru">Lanjut</button>
 		</div>
 	</div>
+	<script>
+		perpanjangan();
+	</script>
 </body>
 </html>

@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style-content.css">
 	<link rel="stylesheet" href="css/fontawesome-all.css">
 	<script src="js/utill.js"></script>
+	<script src="js/effect.js"></script>
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -62,5 +64,8 @@
 		<button class="tombolmerah">Batal</button>
 		<button class="tombolbiru">Lanjut</button>
 	</div>
+	<script>
+		peminjaman();
+	</script>
 </body>
 </html>
