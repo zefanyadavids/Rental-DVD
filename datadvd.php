@@ -47,5 +47,9 @@
 			</table>
 		</div>
 	</div>
+	<script>
+		data();
+		datadvd();
+	</script>
 </body>
 </html>
