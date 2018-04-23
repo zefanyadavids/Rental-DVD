@@ -13,17 +13,5 @@
 	include "side.php";
 ?>
 
-<div id="content" style="height: 1000px;">
-	<?php
-		if(isset($_GET["data"])) {
-			include "data.php";
-		} else if(isset($_GET["pengembalian"])) {
-			include "pengembalian.php";
-		} else if(isset($_GET["perpanjangan"])) {
-			include "perpanjangan.php";
-		}
-	?>
-</div>
-
 </body>
 </html>
