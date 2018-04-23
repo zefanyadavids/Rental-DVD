@@ -1,0 +1,67 @@
+	h2 {
+		font-family: sans-serif;
+		color: #444;
+	}
+
+	hr {
+		background-color: #444;
+	}
+
+	.info td {
+		padding: 8px 20px 8px 0px;
+	}
+
+	.input, .output {
+		height: 20px;
+		width: 400px;
+	}
+	
+	i {
+		padding-right: 5px;
+	}
+
+	table {
+		border-collapse: collapse;
+	}
+	
+	.table table, .table td, .table th {
+		border: 1px solid black;
+		padding: 10px;
+	}
+		
+	.table th {
+		background-color: #00A2EB;
+		color: white;
+	}
+
+	table button{
+		background-color: #00A2EB;
+		color: white;
+		padding: 5px;
+		border-radius: 5px;
+		border: none;
+	}
+
+	.submit{
+		padding: 5px;
+		margin: 60px 300px 0px 0px;
+	}
+	
+	.tombolmerah{
+		background-color: red;
+		color: white;
+		border-radius: 5px;
+		border: none;
+		padding: 7px 15px;
+		margin: 5px;
+	}
+		
+	.tombolbiru{
+		background-color: #00A2EB;
+		color: white;
+		border-radius: 5px;
+		border: none;
+		padding: 7px 20px;
+		margin: 5px;
+	}
+ 

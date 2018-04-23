@@ -1,0 +1,14 @@
+#nav-laporan {
+	margin-top: 5px;
+	height: 60px;
+	width: auto;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #444;
+}
+
+#nav-laporan a {
+	padding: 5px 5.5%;
+	text-decoration: none;
+	color: #fff;
+	float: left;
+}
