@@ -13,14 +13,20 @@
 </head>
 <body>
 	<?php 
-		include "navigasi.php"; 
-		include "side.php";
+		include "user-navigasi.php"; 
+		include "user-side.php";
 	?>
 	<div id="content">
-		<?php
-			include "navigasi-data.php";
-			
-		?>
+		<div style="text-align: center; font-weight: bold; " >
+		<table style="background-color: #276c95; width: 100%; ">
+			<tr>
+				<td>DVD</td>
+			</tr>
+			<tr>
+				<td><i>350 items</i></td>
+			</tr>
+		</table>
+		</div>
 		<div class="pencarian">
 			<input type="text" name="search" id="search">
 			<button class="button-1"><i class="fa fa-search"></i></button>
@@ -28,27 +34,24 @@
 		</div>
 		<br>
 		<div class="data">
-			<table>
+			<table style="width: 100%;">
 				<tr>
-					<th class="col-2">No.</th>
-					<th class="col-2">ID Karyawan</th>
-					<th class="col-2">Nama Karyawan</th>
-					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Karyawan</button></th>
+					<th class="col-2" width="3%;">No.</th>
+					<th class="col-2" width="5%">Kode DVD</th>
+					<th class="col-2">Nama DVD</th>
+					
 				</tr>
 				<tr>
 					<td></td>
 					<td></td>
 					<td></td>
-					<td style="border: none;"><button class="tombolbiru">Detail</button></td>
-					<td style="border: none;"><button class="tombolbiru">Ubah</button></td>
-					<td style="border: none;"><button class="tombolmerah">Delete</button></td>
+					
 				</tr>
 			</table>
 		</div>
 	</div>
 	<script>
-		data();
-		datakaryawan();
+		datadvd();
 	</script>
 </body>
 </html>
