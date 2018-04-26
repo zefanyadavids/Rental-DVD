@@ -86,3 +86,4 @@ function datakaryawan(){
 	$('#datamember').removeClass('blue').addClass('none');
 	$('#datakaryawan').removeClass('none').addClass('blue').css({"color":"#276c95"});
 }
+

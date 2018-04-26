@@ -30,8 +30,8 @@
 			<table>
 				<tr>
 					<th class="col-2">No.</th>
-					<th class="col-2">ID Member</th>
-					<th class="col-2">Nama Member</th>
+					<th class="col-2">ID Karyawan</th>
+					<th class="col-2">Nama Karyawan</th>
 					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah DVD</button></th>
 				</tr>
 				<tr>
@@ -47,7 +47,7 @@
 	</div>
 	<script>
 		data();
-		datamember();
+		datakaryawan();
 	</script>
 </body>
 </html>
