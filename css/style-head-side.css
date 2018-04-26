@@ -1,7 +1,6 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-
 	}
 
 	#logo {
@@ -54,7 +53,7 @@
 		padding-top: 25px;
 		padding-left: 340px;
 		width: 65%;
-		height: 1000px;
+		height: auto;
 		margin: 0px 10px 0px 0px;
 		float: left;
 	}
