@@ -19,6 +19,7 @@
 	<div id="content">
 		<?php
 			include "navigasi-data.php";
+			
 		?>
 		<div class="pencarian">
 			<input type="text" name="search" id="search">
@@ -29,14 +30,12 @@
 		<div class="data">
 			<table>
 				<tr>
+					<th class="col-2">No.</th>
 					<th class="col-2">Kode DVD</th>
 					<th class="col-2">Nama DVD</th>
-					<th class="col-2">Tersedia</th>
-					<th class="col-2">Stok</th>
 					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah DVD</button></th>
 				</tr>
 				<tr>
-					<td></td>
 					<td></td>
 					<td></td>
 					<td></td>
