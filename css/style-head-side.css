@@ -122,8 +122,6 @@
 
 	#nav li a:hover {
 		font-weight: bold;
-		color: #000000;
-		background-color: #ffffff;
 	}
 
 	.active {
@@ -140,4 +138,18 @@
 
 	.margin-top{
 		margin-top: 36px;
+	}
+
+	.white{
+		font-weight: bold;
+		color: #000000;
+		background-color: #ffffff;
+	}
+
+	.none{
+		background-color: none;
+	}
+
+	.blue{
+		font-weight: bold;
 	}

@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style-content.css">
 	<link rel="stylesheet" href="css/fontawesome-all.css">
 	<script src="js/utill.js"></script>
+	<script src="js/effect.js"></script>
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -73,5 +75,8 @@
 				<td><button class="tombolbiru">Lanjut</button></td>
 		</div>
 	</div>
+	<script>
+		pengembalian();
+	</script>
 </body>
 </html>

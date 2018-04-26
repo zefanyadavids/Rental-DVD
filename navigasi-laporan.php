@@ -29,7 +29,7 @@
 			</tr>
 		</table>
 	</a>
-	<a href="stok-dvd.php">
+	<a href="laporan-gaji.php">
 		<table>
 			<tr>
 				<td>Gaji</td>
@@ -39,7 +39,7 @@
 			</tr>
 		</table>
 	</a>
-	<a href="stok-dvd.php">
+	<a href="laporan-presensi.php">
 		<table>
 			<tr>
 				<td>Presensi</td>
