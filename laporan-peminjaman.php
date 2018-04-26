@@ -17,7 +17,13 @@
 
 	<div id="content">
 	<?php
+	
+	//if (admin) {
 		include "navigasi-laporan.php";
+	//}
+	//else
+		//include "navigasi-laporan-kasir.php";
+	
 	?>
 	<table class="table">
 		<tr>
