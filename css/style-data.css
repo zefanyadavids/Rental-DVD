@@ -39,17 +39,14 @@
 
 .col-2:nth-child(1) {
 	padding: 0px 50px;
-	width: 5%;
 }
 
 .col-2:nth-child(2) {
 	padding: 0px 100px;
-	width: 30%;
 }
 
 .col-2:nth-child(3) {
 	padding: 0px 30px;
-	width: 45%;
 }
 
 .col-2:nth-child(4) {
