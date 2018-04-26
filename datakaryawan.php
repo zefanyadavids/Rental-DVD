@@ -19,6 +19,7 @@
 	<div id="content">
 		<?php
 			include "navigasi-data.php";
+			
 		?>
 		<div class="pencarian">
 			<input type="text" name="search" id="search">
