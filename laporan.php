@@ -20,6 +20,9 @@
 	<?php
 		include "navigasi-laporan.php";
 	?>
+		<div id="tabel-laporan">
+			
+		</div>
 	</div>
 
 	<script>
