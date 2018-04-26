@@ -13,6 +13,7 @@
 <?php 
 	include "navigasi.php"; 
 	include "side.php";
+	header("location:peminjaman/peminjaman.php")
 ?>
 </body>
 </html>
