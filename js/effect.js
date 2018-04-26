@@ -70,19 +70,19 @@ function peminjaman(){
 */
 
 function datadvd(){
-	$('#datadvd').removeClass('none').addClass('white').css({"color":"black"});
-	$('#datamember').removeClass('white').addClass('none');
-	$('#datakaryawan').removeClass('white').addClass('none');
+	$('#datadvd').removeClass('none').addClass('blue').css({"color":"#276c95"});
+	$('#datamember').removeClass('blue').addClass('none');
+	$('#datakaryawan').removeClass('blue').addClass('none');
 }
 
 function datamember(){
-	$('#datadvd').removeClass('white').addClass('none');
-	$('#datamember').removeClass('none').addClass('white').css({"color":"black"});
-	$('#datakaryawan').removeClass('white').addClass('none');
+	$('#datadvd').removeClass('blue').addClass('none');
+	$('#datamember').removeClass('none').addClass('blue').css({"color":"#276c95"});
+	$('#datakaryawan').removeClass('blue').addClass('none');
 }
 
 function datakaryawan(){
-	$('#datadvd').removeClass('white').addClass('none');
-	$('#datamember').removeClass('white').addClass('none');
-	$('#datakaryawan').removeClass('none').addClass('white').css({"color":"black"});
+	$('#datadvd').removeClass('blue').addClass('none');
+	$('#datamember').removeClass('blue').addClass('none');
+	$('#datakaryawan').removeClass('none').addClass('blue').css({"color":"#276c95"});
 }
