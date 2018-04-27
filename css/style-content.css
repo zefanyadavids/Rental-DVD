@@ -74,6 +74,9 @@
 		border: none;
 		padding: 8px 18px;
 		margin: 5px;
+<<<<<<< HEAD
+	}
+=======
 		font-size: 13px;
 	}
  
@@ -84,3 +87,4 @@
  	.tombolbiru:hover {
  		background-color: #00A2EB;
  	}
+>>>>>>> master
