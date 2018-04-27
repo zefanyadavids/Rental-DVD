@@ -58,11 +58,11 @@
 				<td colspan="4" style="text-align: right;">Total</td>
 				<td></td>
 			</tr>
+			<tr>
+				<td colspan="4" style="border: none;"></td>
+				<td style="border: none;" align="right"><button class="tombolmerah">Batal</button><button class="tombolbiru">Selesai</button></td>
+			</tr>
 		</table>
-		<div class="submit" align="right">
-			<button class="tombolmerah">Batal</button>
-			<button class="tombolbiru">Lanjut</button>
-		</div>
 	</div>
 	<script>
 		perpanjangan();

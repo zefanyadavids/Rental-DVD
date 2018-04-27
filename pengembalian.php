@@ -56,7 +56,10 @@
 				<td>6</td>
 				<td style="border:none;"><i class="fa fa-check-circle" style="color: grey;"></i></td>
 			</tr>
-			
+			<tr>
+				<td colspan="5" style="border: none;"></td>
+				<td style="border: none;" align="right"><button class="tombolmerah">Batal</button><button class="tombolbiru">Selesai</button></td>
+			</tr>
 		</table>
 		<table>
 			<tr>
@@ -70,10 +73,6 @@
 				<td>Belum Dikembalikan</td>
 			</tr>
 		</table>
-		<div class="submit" align="right">
-				<td><button class="tombolmerah">Batal</button></td>
-				<td><button class="tombolbiru">Lanjut</button></td>
-		</div>
 	</div>
 	<script>
 		pengembalian();
