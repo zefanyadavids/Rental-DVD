@@ -20,7 +20,12 @@
 	<div id="content">
 		<h2>Pengembalian</h2>
 		<hr>
-		<table class="info">
+		<table class="info-input">
+			<colgroup>
+				<col width="120px" />
+				<col width="30px" />
+				<col width="600px" />
+			</colgroup>
 			<tr>
 				<td>No.</td>
 				<td>:</td>
@@ -48,15 +53,18 @@
 				<th>Denda</th>
 			</tr>
 			<tr>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
 				<td style="border:none;"><i class="fa fa-check-circle" style="color: grey;"></i></td>
 			</tr>
-			
+			<tr>
+				<td colspan="5" style="border: none;"></td>
+				<td style="border: none;" align="right"><button class="tombolmerah">Batal</button><button class="tombolbiru">Selesai</button></td>
+			</tr>
 		</table>
 		<table>
 			<tr>
@@ -70,10 +78,6 @@
 				<td>Belum Dikembalikan</td>
 			</tr>
 		</table>
-		<div class="submit" align="right">
-				<td><button class="tombolmerah">Batal</button></td>
-				<td><button class="tombolbiru">Lanjut</button></td>
-		</div>
 	</div>
 	<script>
 		pengembalian();

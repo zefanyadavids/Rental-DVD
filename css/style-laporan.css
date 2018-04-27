@@ -11,7 +11,6 @@
 	text-decoration: none;
 	color: #fff;
 	float: left;
-
 }
 
 #nav-laporan-kasir {
@@ -29,6 +28,10 @@
 	text-decoration: none;
 	color: #fff;
 	float: left;
+}
+
+table {
+	width: 100%;
 }
 
 
