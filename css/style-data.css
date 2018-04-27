@@ -23,8 +23,13 @@
 	margin: 5px 2% 5px 10%;
 	height: 25px;
 	width: 75%;
-	border: 1px solid #276c95;
+	border: 1px solid #444;
 	border-radius: 2px;
+}
+
+#search:focus {
+	border: 1px solid #00A2EB;
+	box-shadow: 0 0 1px #ccccff, 0 0 2px #ccccff, 0 0 6px #ccccff, 0 0 12px #ccccff;
 }
 
 .data th, .data td {
