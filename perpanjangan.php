@@ -52,7 +52,7 @@
 				<td></td>
 				<td></td>
 				<td></td>
-				<td style="border:none;"><button>Perpanjang</button></td>
+				<td style="border:none;"><button class="tombolbiru">Perpanjang</button></td>
 			</tr>
 			<tr>
 				<td colspan="4" style="text-align: right;">Total</td>
