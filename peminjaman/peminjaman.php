@@ -9,6 +9,14 @@
 	<script src="../js/utill.js"></script>
 	<script src="../js/effect.js"></script>
 	<script src="../js/jquery.min.js"></script>
+	<style>
+	#tambahpinjam {
+ 		padding: 5px;
+ 		border:1px solid #444;
+ 		border-radius: 10px;
+ 		background-color: red;
+ 	}
+	</style>
 </head>
 <body>
 
@@ -40,13 +48,7 @@
 		<br>
 		<button class="tombolbiru"><i class="fa fa-plus"></i>Tambah</button>
 		<br>
-		<div id="tambahdvd">
-			<div>
-				<p>Kode DVD</p>
-				<p>:</p>
-				<p><input type="text" name="no" class="input"></p>	
-			</div>
-		</div>
+		<?php include "tambah-pinjam.php" ?>
 		<table class="table">
 			<tr>
 				<br>
@@ -67,11 +69,12 @@
 				<td colspan="4" style="text-align: right;">Total</td>
 				<td></td>
 			</tr>
+			<tr>
+				<td colspan="4" style="border: none"></td>
+				<td style="border: none"><button class="tombolmerah">Batal</button><button class="tombolbiru">Lanjut</button></td>
+			</tr>
 		</table>
-		<div class="submit" align="right">
-		<button class="tombolmerah">Batal</button>
-		<button class="tombolbiru">Lanjut</button>
-	</div>
+		
 	<script>
 		peminjaman();
 	</script>
