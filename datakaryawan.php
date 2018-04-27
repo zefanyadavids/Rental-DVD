@@ -33,7 +33,7 @@
 					<th class="col-2">No.</th>
 					<th class="col-2">ID Karyawan</th>
 					<th class="col-2">Nama Karyawan</th>
-					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah DVD</button></th>
+					<th colspan="3" style="border: none;"><a href="tambah-karyawan.html"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Karyawan</button></a></th>
 				</tr>
 				<tr>
 					<td></td>

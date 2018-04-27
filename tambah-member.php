@@ -29,26 +29,36 @@
 		<br>
 		<div class="data">
 			<table>
-				<tr>
-					<th class="col-2">No.</th>
-					<th class="col-2">ID Member</th>
-					<th class="col-2">Nama Member</th>
-					<th colspan="3" style="border: none;"><a href="tambah-member.php"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Member</button></a></th>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td style="border: none;"><button class="tombolbiru">Detail</button></td>
-					<td style="border: none;"><button class="tombolbiru">Ubah</button></td>
-					<td style="border: none;"><button class="tombolmerah">Delete</button></td>
-				</tr>
-			</table>
+		<tr>
+			<td>ID Member</td>
+			<td>:</td>
+			<td><input type="text" name="id"></td>
+		</tr>
+		<tr>
+			<td>Nama</td>
+			<td>:</td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td>:</td>
+			<td><input type="text" name="alamat"></td>
+		</tr>
+		<tr>
+			<td>Telepon</td>
+			<td>:</td>
+			<td><input type="text" name="call"></td>
+		</tr>
+		<tr>
+			<td>Batal</td>
+			<td>Tambah Member</td>
+		</tr>
+	</table>
 		</div>
 	</div>
 	<script>
 		data();
-		datamember();
+		datakaryawan();
 	</script>
 </body>
 </html>
