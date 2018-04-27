@@ -19,7 +19,12 @@
 	<div id="content">
 		<h2>Perpanjangan</h2>
 		<hr>
-		<table class="info">
+		<table class="info-input">
+			<colgroup>
+				<col width="120px" />
+				<col width="30px" />
+				<col width="600px" />
+			</colgroup>
 			<tr>
 				<td>No.</td>
 				<td>:</td>

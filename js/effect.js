@@ -16,6 +16,13 @@ function active(index) {
 	element[index].classList.add("active");
 }
 
+function showformpinjam() {
+	$('#tambah-peminjaman').show();
+}
+
+function hideformpinjam() {
+	$('#tambah-peminjaman').hide();
+}
 
 function laporan(){
 	$('#laporan').removeClass('none').addClass('white').css({"color":"black"});

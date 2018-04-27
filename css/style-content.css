@@ -7,8 +7,19 @@
 		background-color: #444;
 	}
 
-	.info td {
-		padding: 8px 20px 8px 0px;
+	.info-input td {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	.input {
+		border: 1px solid #000000;
+		border-radius: 2px;
+	}
+
+	.input:focus {
+		border: 1px solid #00A2EB;
+		 box-shadow: 0 0 1px #ccccff, 0 0 2px #ccccff, 0 0 6px #ccccff, 0 0 12px #ccccff;
 	}
 
 	.input, .output {
