@@ -92,6 +92,7 @@
 	</div>
 	<script>
 		laporan();
+		laporanpeminjaman();
 	</script>
 </body>
 </html>

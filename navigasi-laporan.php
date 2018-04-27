@@ -1,5 +1,5 @@
 <div id="nav-laporan">
-	<a href="laporan-peminjaman.php">
+	<a href="laporan-peminjaman.php" id="laporanpeminjaman">
 		<table>
 			<tr>
 				<td>Peminjaman</td>
@@ -9,7 +9,7 @@
 			</tr>
 		</table>
 	</a>
-	<a href="laporan-pengembalian.php">
+	<a href="laporan-pengembalian.php" id="laporanpengembalian">
 		<table>
 			<tr>
 				<td>Pengembalian</td>
@@ -19,7 +19,7 @@
 			</tr>
 		</table>
 	</a>
-	<a href="stok-dvd.php">
+	<a href="stok-dvd.php" id="laporanstokdvd">
 		<table>
 			<tr>
 				<td>Stok DVD</td>
@@ -29,7 +29,7 @@
 			</tr>
 		</table>
 	</a>
-	<a href="laporan-gaji.php">
+	<a href="laporan-gaji.php" id="laporangaji">
 		<table>
 			<tr>
 				<td>Gaji</td>
@@ -39,7 +39,7 @@
 			</tr>
 		</table>
 	</a>
-	<a href="laporan-presensi.php">
+	<a href="laporan-presensi.php" id="laporanpresensi">
 		<table>
 			<tr>
 				<td>Presensi</td>

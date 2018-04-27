@@ -80,6 +80,7 @@
 	</div>
 	<script>
 		laporan();
+		laporanpengembalian();
 	</script>
 </body>
 </html>
