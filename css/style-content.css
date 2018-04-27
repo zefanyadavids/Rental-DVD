@@ -57,26 +57,13 @@
 		padding: 5px;
 	}
 	
-	.tombolmerah{
+	.tombolmerah, .tombolbiru{
 		background-color: #aaa;
 		color: white;
 		border-radius: 5px;
 		border: none;
 		padding: 8px 18px;
 		margin: 5px;
-		font-size: 13px;
-	}
-		
-	.tombolbiru{
-		background-color: #aaa;
-		color: white;
-		border-radius: 5px;
-		border: none;
-		padding: 8px 18px;
-		margin: 5px;
-<<<<<<< HEAD
-	}
-=======
 		font-size: 13px;
 	}
  
@@ -87,4 +74,4 @@
  	.tombolbiru:hover {
  		background-color: #00A2EB;
  	}
->>>>>>> master
+

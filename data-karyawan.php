@@ -22,7 +22,7 @@
 			
 		?>
 		<div class="pencarian">
-			<input type="text" name="search" id="search" placeholder=" search member">
+			<input type="text" name="search" id="search" placeholder=" search Karyawan">
 			<button class="button-1"><i class="fa fa-search"></i></button>
 		<!--  -->
 		</div>
@@ -31,16 +31,22 @@
 			<table>
 				<tr>
 					<th class="col-2">No.</th>
-					<th class="col-2">ID Member</th>
-					<th class="col-2">Nama Member</th>
-					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Member</button></th>
+					<th class="col-2">ID Karyawan</th>
+					<th class="col-2">Nama Karyawan</th>
+					<th colspan="3" style="border: none;">
+						<a href="data-karyawan-tambah.php"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Karyawan</button></a>
+					</th>
 				</tr>
 				<tr>
 					<td></td>
 					<td></td>
 					<td></td>
-					<td style="border: none;"><button class="tombolbiru">Detail</button></td>
-					<td style="border: none;"><button class="tombolbiru">Ubah</button></td>
+					<td style="border: none;">
+						<a href="data-karyawan-detail.php"><button class="tombolbiru">Detail</button></a>
+					</td>
+					<td style="border: none;">
+						<a href="data-karyawan-edit.php"><button class="tombolbiru">Edit</button></a>
+					</td>
 					<td style="border: none;"><button class="tombolmerah">Delete</button></td>
 				</tr>
 			</table>
@@ -48,7 +54,7 @@
 	</div>
 	<script>
 		data();
-		datamember();
+		datakaryawan();
 	</script>
 </body>
 </html>
