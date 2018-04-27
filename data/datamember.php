@@ -33,7 +33,7 @@
 					<th class="col-2">No.</th>
 					<th class="col-2">ID Member</th>
 					<th class="col-2">Nama Member</th>
-					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah DVD</button></th>
+					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Member</button></th>
 				</tr>
 				<tr>
 					<td></td>
