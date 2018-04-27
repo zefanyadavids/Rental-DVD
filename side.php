@@ -1,7 +1,7 @@
 <div id="side">
 	<div id="profil">
 		<h3>Welcome, Admin</h3>
-		<img src="img/profil.png" class="circlepic">
+		<img src="../img/profil.png" class="circlepic">
 		<p>ADM3101</p>
 		<p>Zefanya David S</p>
 	</div>
