@@ -68,6 +68,7 @@
 	</div>
 	<script>
 		laporan();
+		laporanpresensi();
 	</script>
 </body>
 </html>

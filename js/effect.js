@@ -24,45 +24,47 @@ function hideformpinjam() {
 	$('#tambah-peminjaman').hide();
 }
 
+
+//FUNCTION untuk NAVIGASI
 function laporan(){
-	$('#laporan').removeClass('none').addClass('white').css({"color":"black"});
-	$('#data').removeClass('white').addClass('none');
-	$('#pengembalian').removeClass('white').addClass('none');
-	$('#perpanjangan').removeClass('white').addClass('none');
-	$('#peminjaman').removeClass('white').addClass('none');
+	$('#laporan').addClass('white').css({"color":"black"});
+	$('#data').addClass('none');
+	$('#pengembalian').addClass('none');
+	$('#perpanjangan').addClass('none');
+	$('#peminjaman').addClass('none');
 }
 
 function data(){
-	$('#laporan').removeClass('white').addClass('none');
-	$('#data').removeClass('none').addClass('white').css({"color":"black"});
-	$('#pengembalian').removeClass('white').addClass('none');
-	$('#perpanjangan').removeClass('white').addClass('none');
-	$('#peminjaman').removeClass('white').addClass('none');
+	$('#laporan').addClass('none');
+	$('#data').addClass('white').css({"color":"black"});
+	$('#pengembalian').addClass('none');
+	$('#perpanjangan').addClass('none');
+	$('#peminjaman').addClass('none');
 }
 
 function pengembalian(){
-	$('#laporan').removeClass('white').addClass('none');
-	$('#data').removeClass('white').addClass('none');
-	$('#pengembalian').removeClass('none').addClass('white').css({"color":"black"});
-	$('#perpanjangan').removeClass('white').addClass('none');
-	$('#peminjaman').removeClass('white').addClass('none');
+	$('#laporan').addClass('none');
+	$('#data').addClass('none');
+	$('#pengembalian').addClass('white').css({"color":"black"});
+	$('#perpanjangan').addClass('none');
+	$('#peminjaman').addClass('none');
 }
 
 function perpanjangan(){
-	$('#laporan').removeClass('white').addClass('none');
-	$('#data').removeClass('white').addClass('none');
-	$('#pengembalian').removeClass('white').addClass('none');
-	$('#perpanjangan').removeClass('none').addClass('white').css({"color":"black"});
-	$('#peminjaman').removeClass('white').addClass('none');
+	$('#laporan').addClass('none');
+	$('#data').addClass('none');
+	$('#pengembalian').addClass('none');
+	$('#perpanjangan').addClass('white').css({"color":"black"});
+	$('#peminjaman').addClass('none');
 	
 }
 
 function peminjaman(){
-	$('#laporan').removeClass('white').addClass('none');
-	$('#data').removeClass('white').addClass('none');
-	$('#pengembalian').removeClass('white').addClass('none');
-	$('#perpanjangan').removeClass('white').addClass('none');
-	$('#peminjaman').removeClass('none').addClass('white').css({"color":"black"});
+	$('#laporan').addClass('none');
+	$('#data').addClass('none');
+	$('#pengembalian').addClass('none');
+	$('#perpanjangan').addClass('none');
+	$('#peminjaman').addClass('white').css({"color":"black"});
 }
 
 /*$(function (){
@@ -75,21 +77,63 @@ function peminjaman(){
 });
 */
 
+
+//FUNCTION untuk warna NAVIGASI DATA
 function datadvd(){
-	$('#datadvd').removeClass('none').addClass('blue').css({"color":"#276c95"});
-	$('#datamember').removeClass('blue').addClass('none');
-	$('#datakaryawan').removeClass('blue').addClass('none');
+	$('#datadvd').addClass('blue').css({"color":"#276c95"});
+	$('#datamember').addClass('none');
+	$('#datakaryawan').addClass('none');
 }
 
 function datamember(){
-	$('#datadvd').removeClass('blue').addClass('none');
-	$('#datamember').removeClass('none').addClass('blue').css({"color":"#276c95"});
-	$('#datakaryawan').removeClass('blue').addClass('none');
+	$('#datadvd').addClass('none');
+	$('#datamember').addClass('blue').css({"color":"#276c95"});
+	$('#datakaryawan').addClass('none');
 }
 
 function datakaryawan(){
-	$('#datadvd').removeClass('blue').addClass('none');
-	$('#datamember').removeClass('blue').addClass('none');
-	$('#datakaryawan').removeClass('none').addClass('blue').css({"color":"#276c95"});
+	$('#datadvd').addClass('none');
+	$('#datamember').addClass('none');
+	$('#datakaryawan').addClass('blue').css({"color":"#276c95"});
 }
 
+//FUNCTION  untuk warna NAVIGASI LAPORAN
+function laporanpeminjaman(){
+	$('#laporanpeminjaman').addClass('blue').css({"color":"#276c95"});
+	$('#laporanpengembalian').addClass('none');
+	$('#laporanstokdvd').addClass('none');
+	$('#laporangaji').addClass('none');
+	$('#laporanpresensi').addClass('none');
+}
+
+function laporanpengembalian(){
+	$('#laporanpeminjaman').addClass('none');
+	$('#laporanpengembalian').addClass('blue').css({"color":"#276c95"});
+	$('#laporanstokdvd').addClass('none');
+	$('#laporangaji').addClass('none');
+	$('#laporanpresensi').addClass('none');
+}
+
+function laporanstokdvd(){
+	$('#laporanpeminjaman').addClass('none');
+	$('#laporanpengembalian').addClass('none');
+	$('#laporanstokdvd').addClass('blue').css({"color":"#276c95"});
+	$('#laporangaji').addClass('none');
+	$('#laporanpresensi').addClass('none');
+}
+
+function laporangaji(){
+	$('#laporanpeminjaman').addClass('none');
+	$('#laporanpengembalian').addClass('none');
+	$('#laporanstokdvd').addClass('none');
+	$('#laporangaji').addClass('blue').css({"color":"#276c95"});
+	$('#laporanpresensi').addClass('none');
+}
+
+function laporanpresensi(){
+	$('#laporanpeminjaman').addClass('none');
+	$('#laporanpengembalian').addClass('none');
+	$('#laporanstokdvd').addClass('none');
+	$('#laporangaji').addClass('blue');
+	$('#laporanpresensi').addClass('blue').css({"color":"#276c95"});
+}
