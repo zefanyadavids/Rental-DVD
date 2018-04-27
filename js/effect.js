@@ -1,22 +1,28 @@
-	window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction()};
 
-	var nav = document.getElementById("nav");
-	var sticky = nav.offsetTop;
+var nav = document.getElementById("nav");
+var sticky = nav.offsetTop;
 
-	function myFunction() {
-		if (window.pageYOffset >= sticky) {
-	  		nav.classList.add("sticky")
-	  	} else {
-	    	nav.classList.remove("sticky");
-	  	}
-	}
+function myFunction() {
+	if (window.pageYOffset >= sticky) {
+  		nav.classList.add("sticky")
+  	} else {
+    	nav.classList.remove("sticky");
+  	}
+}
 
-	function active(index) {
-		var element = document.getElementsByClassName("right");
-		element[index].classList.add("active");
-		
-	}
+function active(index) {
+	var element = document.getElementsByClassName("right");
+	element[index].classList.add("active");
+}
 
+function showformpinjam() {
+	$('#tambah-peminjaman').show();
+}
+
+function hideformpinjam() {
+	$('#tambah-peminjaman').hide();
+}
 
 function laporan(){
 	$('#laporan').removeClass('none').addClass('white').css({"color":"black"});

@@ -22,7 +22,7 @@
 			
 		?>
 		<div class="pencarian">
-			<input type="text" name="search" id="search">
+			<input type="text" name="search" id="search" placeholder=" search DVD">
 			<button class="button-1"><i class="fa fa-search"></i></button>
 		<!--  -->
 		</div>

@@ -1,7 +1,6 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-
 	}
 
 	#logo {
@@ -54,7 +53,7 @@
 		padding-top: 25px;
 		padding-left: 340px;
 		width: 65%;
-		height: 1000px;
+		height: auto;
 		margin: 0px 10px 0px 0px;
 		float: left;
 	}
@@ -94,29 +93,30 @@
 		height: 50px;
 		width: 80%;
 		margin: 10px auto;
-		border: 3px solid #ffffff;
+		border: 3px solid #00A2EB;
 		border-radius: 5px;
 		font-family: serif;
 		font-weight: bold;
-		color: #ffffff;
+		color: #eee;
 	}
 
 	.timeWidget:nth-child(2) {
 		height: 150px;
 		width: 80%;
 		margin: 0px auto;
-		padding-top: 20px;
-		border: 3px solid #ffffff;
+		padding: 10px auto;
+		border: 3px solid #00A2EB;
 		border-radius: 5px;
 		font-family: serif;
 		font-weight: bold;
-		color: #ffffff;
+		font-size: 20px;
+		color: #eee;
 	}
 
 	.circlepic {
 		padding: 2px;
 		height: 60px;
-		border: 1px solid #276c95;
+		border: 2px solid #ffffff;
 		border-radius: 90px;
 	}
 

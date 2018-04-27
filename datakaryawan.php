@@ -22,7 +22,7 @@
 			
 		?>
 		<div class="pencarian">
-			<input type="text" name="search" id="search">
+			<input type="text" name="search" id="search" placeholder=" search Karyawan">
 			<button class="button-1"><i class="fa fa-search"></i></button>
 		<!--  -->
 		</div>
@@ -33,7 +33,11 @@
 					<th class="col-2">No.</th>
 					<th class="col-2">ID Karyawan</th>
 					<th class="col-2">Nama Karyawan</th>
+<<<<<<< HEAD
 					<th colspan="3" style="border: none;"><a href="tambah-karyawan.html"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Karyawan</button></a></th>
+=======
+					<th colspan="3" style="border: none;"><button class="tombolbiru"><i class="fa fa-plus"></i>Tambah Karyawan</button></th>
+>>>>>>> master
 				</tr>
 				<tr>
 					<td></td>
