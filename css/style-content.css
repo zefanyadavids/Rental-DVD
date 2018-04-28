@@ -66,6 +66,7 @@
 		margin: 5px;
 		font-size: 13px;
 	}
+<<<<<<< HEAD
  
  	.tombolmerah:hover {
  		background-color: #ff0000;
@@ -75,3 +76,20 @@
  		background-color: #00A2EB;
  	}
 
+=======
+		
+	.tombolbiru{
+		background-color: #00A2EB;
+		color: white;
+		border-radius: 5px;
+		border: none;
+		padding: 7px 20px;
+		margin: 5px;
+	}
+ 
+ 	#tambahpinjam {
+ 		padding: 5px;
+ 		border:1px solid #444;
+ 		border-radius: 10px;
+ 	}
+>>>>>>> zefanyadavids

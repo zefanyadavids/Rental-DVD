@@ -63,6 +63,7 @@
 	</style>
 </head>
 <body>
+<<<<<<< HEAD
 	<form method="POST">
 		<div class="imglogo">
 			<img src="img/Logo.png" alt="Avatar">
@@ -84,5 +85,13 @@
 	</form>
 	<p><strong>MAKE YOUR TIME USEFUL</strong><br/><strong>Copyright</strong> by DIY</p>
 	<?php header("location:home/home.php") ?>
+=======
+
+<?php 
+	include "navigasi.php"; 
+	include "side.php";
+	header("location:peminjaman/peminjaman.php")
+?>
+>>>>>>> zefanyadavids
 </body>
 </html>

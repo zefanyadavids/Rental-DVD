@@ -19,12 +19,16 @@
 	<div id="content">
 		<h2>Perpanjangan</h2>
 		<hr>
+<<<<<<< HEAD:perpanjangan/perpanjangan.php
 		<table class="info-input">
 			<colgroup>
 				<col width="120px" />
 				<col width="30px" />
 				<col width="600px" />
 			</colgroup>
+=======
+		<table class="info">
+>>>>>>> zefanyadavids:perpanjangan/perpanjangan.php
 			<tr>
 				<td>No.</td>
 				<td>:</td>
@@ -57,17 +61,29 @@
 				<td></td>
 				<td></td>
 				<td></td>
+<<<<<<< HEAD:perpanjangan/perpanjangan.php
 				<td style="border:none;"><button class="tombolbiru">Perpanjang</button></td>
+=======
+				<td style="border:none;"><button>Perpanjang</button></td>
+>>>>>>> zefanyadavids:perpanjangan/perpanjangan.php
 			</tr>
 			<tr>
 				<td colspan="4" style="text-align: right;">Total</td>
 				<td></td>
 			</tr>
+<<<<<<< HEAD:perpanjangan/perpanjangan.php
 			<tr>
 				<td colspan="4" style="border: none;"></td>
 				<td style="border: none;" align="right"><button class="tombolmerah">Batal</button><button class="tombolbiru">Selesai</button></td>
 			</tr>
 		</table>
+=======
+		</table>
+		<div class="submit" align="right">
+			<button class="tombolmerah">Batal</button>
+			<button class="tombolbiru">Lanjut</button>
+		</div>
+>>>>>>> zefanyadavids:perpanjangan/perpanjangan.php
 	</div>
 	<script>
 		perpanjangan();
