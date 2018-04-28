@@ -1,5 +1,4 @@
 <div id="logo" align="center">
-<<<<<<< HEAD
 	<a href="../home/home.php"><img src="../img/Logo.png"></a>
 </div>
 <div id="nav">
