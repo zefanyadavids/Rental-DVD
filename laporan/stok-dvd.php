@@ -7,10 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/style-content.css">
 	<link rel="stylesheet" href="../css/fontawesome-all.css">
 	<script src="../js/utill.js"></script>
-<<<<<<< HEAD:laporan/stok-dvd.php
 	<script src="../js/jquery.min.js"></script>
-=======
->>>>>>> zefanyadavids:laporan/stok-dvd.php
 </head>
 <body>
 
