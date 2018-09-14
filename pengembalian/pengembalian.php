@@ -20,6 +20,12 @@
 	<div id="content">
 		<h2>Pengembalian</h2>
 		<hr>
+		<table class="info-input">
+			<colgroup>
+				<col width="120px" />
+				<col width="30px" />
+				<col width="600px" />
+			</colgroup>
 		<table class="info">
 			<tr>
 				<td>No.</td>
@@ -48,6 +54,18 @@
 				<th>Denda</th>
 			</tr>
 			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td style="border:none;"><i class="fa fa-check-circle" style="color: grey;"></i></td>
+			</tr>
+			<tr>
+				<td colspan="5" style="border: none;"></td>
+				<td style="border: none;" align="right"><button class="tombolmerah">Batal</button><button class="tombolbiru">Selesai</button></td>
+			</tr>
 				<td>1</td>
 				<td>2</td>
 				<td>3</td>
@@ -56,7 +74,6 @@
 				<td>6</td>
 				<td style="border:none;"><i class="fa fa-check-circle" style="color: grey;"></i></td>
 			</tr>
-			
 		</table>
 		<table>
 			<tr>

@@ -9,14 +9,6 @@
 	<script src="../js/utill.js"></script>
 	<script src="../js/effect.js"></script>
 	<script src="../js/jquery.min.js"></script>
-	<style>
-	#tambahpinjam {
- 		padding: 5px;
- 		border:1px solid #444;
- 		border-radius: 10px;
- 		background-color: red;
- 	}
-	</style>
 </head>
 <body>
 

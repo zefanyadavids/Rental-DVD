@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/style-content.css">
 	<link rel="stylesheet" href="../css/fontawesome-all.css">
 	<script src="../js/utill.js"></script>
+	<script src="../js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -64,5 +65,9 @@
 		</tr>
 	</table>
 	</div>
+	<script>
+		laporan();
+		laporanstokdvd();
+	</script>
 </body>
 </html>

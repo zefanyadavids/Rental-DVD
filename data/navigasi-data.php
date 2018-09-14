@@ -1,4 +1,5 @@
 <div id="nav-data">
+	<a href="../data/data-dvd.php" id="datadvd">
 	<a href="datadvd.php" id="datadvd">
 		<table>
 			<tr>
@@ -9,6 +10,7 @@
 			</tr>
 		</table>
 	</a>
+	<a href="../data/data-member.php" id="datamember">
 	<a href="datamember.php" id="datamember">
 		<table>
 			<tr>
@@ -19,6 +21,7 @@
 			</tr>
 		</table>
 	</a>
+	<a href="../data/data-karyawan.php" id="datakaryawan">
 	<a href="datakaryawan.php" id="datakaryawan">
 		<table>
 			<tr>

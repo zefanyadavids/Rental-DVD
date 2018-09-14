@@ -7,6 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="../css/style-content.css">
 	<link rel="stylesheet" href="../css/fontawesome-all.css">
 	<script src="../js/utill.js"></script>
+<<<<<<< HEAD:laporan/laporan-peminjaman.php
+	<script src="../js/effect.js"></script>
+	<script src="../js/jquery.min.js"></script>
+=======
+>>>>>>> zefanyadavids:laporan/laporan-peminjaman.php
 </head>
 <body>
 
@@ -88,6 +93,9 @@
 		</tr>
 	</table>
 	</div>
-
+	<script>
+		laporan();
+		laporanpeminjaman();
+	</script>
 </body>
 </html>
